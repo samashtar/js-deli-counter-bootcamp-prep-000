@@ -23,8 +23,9 @@ function nowServing(line, name) {
   return (`Currently serving ${line.shift()}.`) 
 }
 
+var number = 0
+
 function takeANumberOldSchool(){
-  var number = 0 
   number += 1
   return ('You are number ${number}')
 }
