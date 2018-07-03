@@ -23,4 +23,13 @@ function nowServing(line, name) {
   return (`Currently serving ${line.shift()}.`) 
 }
 
+function takeANumberOldSchool(){
+  
+}
+
 //takeANumber(katzDeli, "Humzah") => Welcome Humzah You are number 1 in line
+//nowServing() Currently Serving Humzah
+//takeANumber(katzDeli, Sam) => Welcome Sam you are number 1 in line
+
+//takeANumber()
+//
