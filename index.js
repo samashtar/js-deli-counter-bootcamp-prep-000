@@ -22,3 +22,5 @@ function nowServing(line, name) {
   else 
   return (`Currently serving ${line.shift()}.`) 
 }
+
+//takeANumber(katzDeli, "Humzah") => Welcome Humzah You are number 1 in line
