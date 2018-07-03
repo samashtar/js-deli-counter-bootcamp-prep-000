@@ -24,7 +24,9 @@ function nowServing(line, name) {
 }
 
 function takeANumberOldSchool(){
-  
+  var number = 0 
+  number += 1
+  return ('You are number ${number}')
 }
 
 //takeANumber(katzDeli, "Humzah") => Welcome Humzah You are number 1 in line
